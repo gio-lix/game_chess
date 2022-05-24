@@ -1,0 +1,26 @@
+.title {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &_black {
+    background-color: #7e9160;
+  }
+
+  &_white {
+    background-color: #eef6ed;
+  }
+
+  &_chess_piece {
+    width: 100px;
+    height: 100px;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    &:active {
+      cursor: grabbing;
+    }
+  }
+}
